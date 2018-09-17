@@ -15,7 +15,7 @@ Si votre appareil est `WA854RE V2`, téléchargez et mettez à jour ce micrologi
 
 Si votre appareil est `WA854RE V2 EU`, téléchargez et mettez à jour ce micrologiciel: https://github.com/vincentoop/tech/blob/master/lede-ar71xx-generic-tl-wa854re-v2-squashfs-factory-eu.bin
 
-Si votre appareil est `WA854RE V2 US`, téléchargez et mettez à jour ce micrologiciel: https://github.com/vincentoop/tech/blob/master/lede-ar71xx-generic-tl-wa854re-v2-squashfs-factory-US.bin
+Si votre appareil est `WA854RE V2 US`, téléchargez et mettez à jour ce micrologiciel: https://github.com/vincentoop/tech/blob/master/lede-ar71xx-generic-tl-wa854re-v2-squashfs-factory-us.bin
 
 ## Si vous voulez `installer le dernier version openwrt`
 vous pouvez simplement télécharger et flasher le fichier wa850re squashfs-sysupgrade.bin, wa850re et wa854re avoir le même matériel, mais ce fichier n'a pas d'interface web luci, n'est pas configuré en cas de mal configuré. Vous devez donc créer votre propre fichier squashfs-sysupgrade.bin, en changeant deux fichiers: rc.local et mac80211.sh.
