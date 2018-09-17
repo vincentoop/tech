@@ -16,7 +16,7 @@ If your device is `WA854RE V2`, download and update this firmware: https://githu
 
 If your device is `WA854RE V2 EU`, download and update this firmware: https://github.com/vincentoop/tech/blob/master/lede-ar71xx-generic-tl-wa854re-v2-squashfs-factory-eu.bin
 
-If your device is `WA854RE V2 US`, download and update this firmware: https://github.com/vincentoop/tech/blob/master/lede-ar71xx-generic-tl-wa854re-v2-squashfs-factory-US.bin
+If your device is `WA854RE V2 US`, download and update this firmware: https://github.com/vincentoop/tech/blob/master/lede-ar71xx-generic-tl-wa854re-v2-squashfs-factory-us.bin
 
 ## If you want to `install latest openwrt`
 you can just download and flash the wa850re squashfs-sysupgrade.bin file, wa850re and wa854re have the same hardware, but this file don't have luci web interface , don't configed for failsafe. So you have to build you own squashfs-sysupgrade.bin file, bu changing two files: rc.local and mac80211.sh .
