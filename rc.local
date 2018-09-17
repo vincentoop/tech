@@ -1,0 +1,15 @@
+# Put your custom commands here that should be executed once
+# the system init finished. By default this file does nothing.
+
+if grep disabled /etc/config/wireless
+	then
+	sed -i '/disabled/d' /etc/config/wireless
+	/etc/init.d/network restart
+fi
+sleep 180
+if ifconfig br-lan | grep 'RX bytes' | grep '(0.0 B)'
+	then
+	mount_root
+	firstboot -y
+fi
+exit 0
