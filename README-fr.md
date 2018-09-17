@@ -1,5 +1,5 @@
 ## Comment installer OpenWrt ou LEDE sur TL-WA854RE
-
+## English Language Version:[English Language](https://github.com/vincentoop/tech/blob/master/README.md)
 * J'ai installé avec succès OpenWrt LEDE sur mon répéteur WiFi `TP-Link TL-WA854RE V2 EU` . Je décide donc d'écrire cet article pour ceux qui ont un tel appareil. Sur le firmware d'origine, le wifi se raccroche facilement si plusieurs appareils sont connectés. Mais sur OpenWrt, c'est très très stable.
 
 Le lien que j'ai suivi est https://lists.openwrt.org/pipermail/openwrt-devel/2017-February/006197.html . Mais ce firewmare n’a pas d’interface web luci, et n’est pas configuré en cas de mal configuré.
